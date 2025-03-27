@@ -4,8 +4,8 @@ const projectId = "28LuNAotbXzcvtpOcE9F8ayKOeP";
 const projectSecret = "3de3d9c099c6c0c168e39b8bc03e2f7a";
 window.CONTRACT = {
   address: "0x1770B3133F23a24698D3f9049e69BcB30038586b",
-  network: "http://127.0.0.1:7545",
-  explore: "http://127.0.0.1:7545",
+  network: "Example : https://polygon-rpc.com/",
+  explore: "Example : https://polygon-rpc.com/",
   // Your Contract ABI
   abi: [
     {
