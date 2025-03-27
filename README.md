@@ -15,6 +15,10 @@ This project aims to create a secure and decentralized system for document verif
 - Node.js and npm installed on your system
 - MetaMask Wallet
 - IPFS API (key and secret) you can get it from infura.io
+-  Ganache (for local Ethereum blockchain simulation)
+- Solidity (for writing smart contracts)
+- VS Code (recommended code editor)
+- Tailwind CSS (for styling the frontend)
 
 ## Installation
 
@@ -32,6 +36,151 @@ This project aims to create a secure and decentralized system for document verif
    
 5. Open the application in your browser using Live Server Extension .
 6. if you need to view the actual documents you have to create new infura account at ``infura.io`` and use the api id and secret provided by infura and paste them in the app.js where is the uploadToInfura function
+
+## SETUP
+
+Follow these steps to set up the project on your local machine:
+
+### 1️⃣ **Clone the Repository**
+```sh
+git clone https://github.com/gopigowda2004/Decentralized-Document-Verification-using-Blockchain.git
+cd Decentralized-Document-Verification-using-Blockchain
+
+npm install
+
+npm install -g truffle
+
+truffle version
+
+Truffle v5.x.x (core: 5.x.x)
+Node vxx.x.x
+
+truffle compile
+
+truffle migrate --network development
+
+## IN App.js you need to change address
+The address "0x1770B3133F23a24698D3f9049e69BcB30038586b" is an Ethereum wallet or smart contract address. Here’s how you can find or verify it:
+
+The address "0x1770B3133F23a24698D3f9049e69BcB30038586b" is an Ethereum wallet or smart contract address. Here’s how you can find or verify it:
+
+🔍 1️⃣ Check in Ganache (Local Blockchain)
+If you're using Ganache for local Ethereum development, follow these steps:
+
+Open Ganache → You will see a list of accounts with addresses.
+
+Find the Address in the list (if it's from your local blockchain).
+
+If you deployed a smart contract, check the "Contracts" tab.
+
+🔍 2️⃣ Check in Metamask (Your Wallet)
+If this is your wallet address:
+
+Open Metamask.
+
+Click on your account name (it will copy the address).
+
+Compare it with "0x1770B3133F23a24698D3f9049e69BcB30038586b".
+
+🔍 3️⃣ Check in Truffle Console
+If you deployed a contract using Truffle, run:
+
+truffle console
+Then, check deployed contracts:
+
+YourContract.deployed().then(instance => instance.address)
+you will get address copy and paste to App.js Address
+
+
+
+I have Used Etherum Token You need to use Polygon matic Token
+you need to buy this in crypto currency exchange
+
+
+
+1️⃣ Open MetaMask
+Click on MetaMask Extension in your browser.
+
+Click on the Network Dropdown (top left, where it shows "Ethereum Mainnet").
+
+Click on "Add network" or "Add network manually".
+
+🔹 2️⃣ Enter Polygon Network Details
+In the Add Network section, enter the following details:
+
+Network Name: Polygon Mainnet
+
+New RPC URL: https://polygon-rpc.com/
+
+Chain ID: 137
+
+Currency Symbol: MATIC
+
+Block Explorer URL: https://polygonscan.com/
+
+After entering these details, click "Save".
+
+
+## How to Buy MATIC (Polygon) Token
+You can buy MATIC (Polygon) using various methods, depending on whether you want to purchase it with fiat (INR, USD, etc.) or trade it with other cryptocurrencies.
+
+1️⃣ Buy MATIC from a Crypto Exchange
+You can purchase MATIC directly from these popular crypto exchanges:
+✅ Binance → https://www.binance.com
+✅ Coinbase → https://www.coinbase.com
+✅ WazirX (For India) → https://wazirx.com
+✅ KuCoin → https://www.kucoin.com
+✅ Kraken → https://www.kraken.com
+
+📝 Steps to Buy from an Exchange:
+Sign up/Login on your preferred exchange.
+
+Complete KYC (for fiat deposits).
+
+Deposit INR/USD via UPI, bank transfer, or credit/debit card.
+
+Search for "MATIC" in the trading section.
+
+Buy MATIC using INR, USDT, or other available pairs.
+
+Withdraw MATIC to your MetaMask Wallet (if needed).
+
+🔹 2️⃣ Buy MATIC on MetaMask (Using Fiat & Crypto)
+Open MetaMask and select the Polygon Network.
+
+Click on "Buy" inside MetaMask.
+
+Choose a payment method (Credit/Debit card or P2P).
+
+Follow the payment instructions and confirm the purchase.
+
+🔸 Supported Services in MetaMask: MoonPay, Transak, Wyre
+
+🔹 3️⃣ Swap Crypto for MATIC (If You Already Have Crypto)
+If you have Ethereum (ETH), USDT, or BNB, you can swap it for MATIC on a Decentralized Exchange (DEX) like:
+🔁 Uniswap → https://app.uniswap.org
+🔁 SushiSwap → https://app.sushi.com
+🔁 QuickSwap (Best for Polygon) → https://quickswap.exchange
+
+📝 Steps for Swapping:
+Go to QuickSwap and connect MetaMask.
+
+Select ETH/USDT → MATIC in the swap section.
+
+Approve the transaction and swap.
+
+MATIC will be added to your wallet.
+
+🔹 4️⃣ Withdraw MATIC to Your MetaMask Wallet
+Copy your MetaMask Polygon (MATIC) address.
+
+Go to the exchange where you bought MATIC.
+
+Withdraw MATIC → Enter your MetaMask address.
+
+Select the Polygon Network (NOT ERC-20, BNB, etc.).
+
+Confirm Withdrawal.
 
 ## Usage
 
@@ -52,5 +201,8 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - IPFS documentation
 - Truffle documentation
 
+## All SETUP AND INITIALIZATION
+Click on Go Live
+ 
 
 
