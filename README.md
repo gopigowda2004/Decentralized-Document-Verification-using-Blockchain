@@ -201,8 +201,19 @@ This project is licensed under the MIT License - see the LICENSE.md file for det
 - IPFS documentation
 - Truffle documentation
 
-## All SETUP AND INITIALIZATION
-Click on Go Live
- 
+
+<img width="1600" height="900" alt="Screenshot 2025-04-02 184957" src="https://github.com/user-attachments/assets/3a207875-9861-4450-b9ac-2ab745b2c2a7" />
 
 
+
+<img width="1600" height="900" alt="Screenshot 2025-04-03 200253" src="https://github.com/user-attachments/assets/41bed082-c9cf-4a7a-9801-fd9d4c893e9e" />
+
+
+<img width="776" height="365" alt="Screenshot 2025-04-03 200034" src="https://github.com/user-attachments/assets/b0d8bd51-34a1-4326-84f4-0fc7e100637e" />
+
+
+<img width="820" height="367" alt="Screenshot 2025-04-03 195900" src="https://github.com/user-attachments/assets/e14be52c-4a7f-48d1-af9e-39235e8bdbf5" />
+
+
+
+<img width="340" height="562" alt="Screenshot 2025-03-15 183720" src="https://github.com/user-attachments/assets/ebdfa45f-6ec5-4450-b437-18c6efaf0d7a" />
